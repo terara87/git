@@ -1,0 +1,356 @@
+.header {
+  background-image: url(https://pas-pol.jp/wp-content/uploads/2014/11/main_visual_6-0x0.jpg);
+  background-size: cover;
+padding-bottom: 600px;
+}
+
+.header img{
+  padding-top: 43px;
+  padding-left: 90px;
+}
+
+.header ul{
+  list-style: none;
+}
+
+.header a{
+  text-decoration: none;
+  color:  #FFFFFF;
+  float: left;
+  padding: 10px;
+  position: relative;
+  left: 750px;
+  top: -120px
+}
+
+.tabi{
+  background-color: #F6F6F6;
+  width: 100%;
+}
+
+.tabi2{
+  width: 20%;
+  margin: auto;
+  text-align: left;
+}
+
+
+.deyou{
+  padding-top: 125px;
+  padding-bottom: 75px;
+}
+
+.tukuru{
+  padding-bottom: 30px;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.paspol{
+  font-size: 45px;
+}
+
+.pro{
+  padding-bottom: 130px;
+}
+
+
+
+.duct{
+  padding-top: 110px;
+  padding-bottom: 105px;
+  padding-left: 265px;
+}
+
+.duct2{
+  padding-right: 270px;
+  margin-top: -80px;
+}
+
+.duct2 a{
+  border: 1px solid black;
+  color:black;
+  text-decoration:none;
+  padding: 22px 80px;
+ float: right;
+
+}
+
+.duct2 a:hover{
+  color: #FFFFFF;
+  background-color: black;
+}
+
+.phon{
+width: 100%;
+margin: auto;
+}
+
+.phons{
+  display: inline-block;
+  padding: 30px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.pho{
+  width: 90%;
+  text-align: left;
+  margin: auto;
+}
+
+
+
+
+.phnot{
+  text-align:center;
+}
+
+.phonts{
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.news{
+  background-color: #F6F6F6;
+}
+.new{
+  padding-top: 110px;
+  padding-left: 270px;
+  padding-bottom: 110px;
+}
+
+.new2{
+  padding-right: 270px;
+  margin-top: -80px;
+
+}
+
+.new2 a{
+  border: 1px solid black;
+  color:black;
+  text-decoration:none;
+  padding: 22px 80px;
+  float: right;
+}
+
+.new2 a:hover{
+  color: #FFFFFF;
+  background-color: black;
+}
+
+.main img{
+  padding-left: 265px;
+  vertical-align: top;
+
+}
+
+.main2{
+  display: inline-block;
+}
+
+.main h2{
+  margin: 0px;
+}
+
+.main a{
+  display: block;
+}
+
+.main3{
+  padding-bottom: 30px;
+}
+
+.sns{
+  padding-top: 35px;
+  padding-bottom: 75px;
+}
+
+.jq{
+position: absolute;
+left: 50%;
+margin-top: -60px;
+
+}
+
+
+
+.sns a{
+ text-decoration: none;
+ float: left;
+ padding: 13px 20px;
+ margin-left: 33px;
+}
+
+.sns2{
+border: 1px solid #4871a9;
+color: #4871a9;
+}
+
+.snst a:hover{
+  background-color: #4871a9;
+  color: #FFFFFF;
+}
+
+.sns3{
+  border: 1px solid #70bdd3;
+  color: #70bdd3;
+}
+
+.snst2 a:hover{
+  background-color: #70bdd3;
+  color: #FFFFFF;
+}
+
+.sns4{
+  border: 1px solid #2f9bcd;
+  color: #2f9bcd;
+}
+
+.snst3 a:hover{
+  background-color: #2f9bcd;
+  color: #FFFFFF;
+}
+
+.snst{
+  margin-left: 390px;
+  margin-right: 33px;
+}
+
+.sbmenu{
+  background-color: #939899;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align:center;
+}
+
+.sbmenu li {
+display: inline-block;
+margin-left: 40px;
+
+}
+
+.sbmenu ul{
+  list-style: none;
+}
+
+.sbmenu a{
+  color: #FFFFFF;
+}
+
+.saigo{
+  background-color: #656C6E;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.saigo p{
+  font-size: 10px;
+  font-weight: 400;
+  color: #FFFFFF;
+  display: inline-block;
+  margin-left: 265px;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+.saigo img{
+  margin-left: 275px;
+}
+
+
+
+@media screen and ( max-width:479px ){
+.header img{
+  padding-top: 160px;
+}
+
+.tabi2{
+  width: 90%;
+  margin-left: auto;
+}
+
+.duct2{
+  display: none;
+}
+
+.duct h1{
+  text-align: center;
+}
+
+.phons img{
+  height: 515px;
+  width: 390px;
+}
+
+.pho {
+text-align: center;
+}
+
+.main3{
+  display: none;
+}
+
+.main img{
+  padding: 0px;
+  width: 390px;
+  height: 219px;
+  padding: 30px;
+}
+
+.main h2{
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.new2{
+  display: none;
+}
+
+.snst a{
+height: 46px;
+width: 187px;
+}
+
+.snst2 a{
+  height: 46px;
+  width: 187px;
+
+}
+
+.snst3 a{
+  height: 46px;
+  width: 187px;
+
+}
+
+.sbmenu li{
+  display: block;
+}
+
+.sns3{
+  padding-top: -39px;
+}
+
+.saigo img{
+  margin: 0px;
+  padding-left: 200px;
+}
+
+.saigo p{
+margin-left: 0px;
+}
+
+.news h1{
+margin: auto;
+padding-right: 20px;
+}
+
+
+
+
+
+}
